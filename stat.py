@@ -20,7 +20,4 @@ def get_academic_average(average):
             student_name = str(input("\nEnter a Student Name: "))
             if not student_name:
                 print("Student Name must not be empty")
-
-            if any(char.isdigit() for char in student_name):
-                print("Student Name must not contain numbers")
                 continue
